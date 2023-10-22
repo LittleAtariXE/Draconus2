@@ -1,0 +1,4 @@
+# Default blacklist for all servers.
+# put IP Address
+
+

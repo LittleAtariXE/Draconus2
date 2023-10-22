@@ -1,0 +1,15 @@
+# directories that will be searched with all subdirectories
+# unhash directory path
+
+#ProgramFiles(x86)
+#ProgramFiles
+#CommonProgramFiles
+#ProgramData
+
+
+#User Profile with MyDocuments, MyImages etc.
+UserProfile
+
+#Windows path
+#SystemRoot
+

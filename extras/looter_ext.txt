@@ -1,0 +1,8 @@
+# paste the file types that will be searched for here
+# ex:
+.jpg
+.bmp
+.gif
+.jpeg
+
+

@@ -25,7 +25,7 @@ class BasicWorm:
         self.format_code = "{{FORMAT_CODE}}"
         self.raw_len = {{RAW_LEN}}
         self.conn_pause = {{CLIENT_PAUSE_CONN}}
-        self.conn_check = {{CLIENT_PAUSE_CONN}}
+        self.conn_check = {{CLIENT_CHECK_CONN}}
         self.sys_msg = "{{SYS_MSG}}"
         self.crypter = Chameleon(self.format_code)
         self.conn_event = Event()

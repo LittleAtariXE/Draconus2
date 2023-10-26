@@ -47,7 +47,7 @@ def build_draco_shell(CoCe=CommandCenter(), imp=Importer()):
     
     @draco_shell.command()
     def klop():
-        conf = {"NAME": "qqq", "PORT" : 1234, "TYPES": "GypsyKing", "START_NOW": True, "DEV": True}
+        conf = {"NAME": "qqq", "PORT" : 1234, "TYPES": "BasicBot", "START_NOW": True, "DEV": True}
         CoCe.send_json(["make", conf])
         sleep(1)
         CoCe.find_servers()

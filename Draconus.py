@@ -8,7 +8,7 @@ from multiprocessing import Pipe, Event
 
 from app.CONFIG import SOCKETS_DIR, DRACO_OUT_MAIN_DIR, UNIX_SOCKET_FORMAT_CODE, UNIX_SOCKET_RAW_LEN
 from app import Messenger, MrHeader, Queen, Importer
-from app import Basic, Echo, BasicBot, BasicRat, GypsyKing
+from app import Basic, Echo, BasicBot, BasicRat, GypsyKing, RatHole
 
 class ServerHandler:
     def __init__(self, name, server, pipe, stop_signal, draco_callback):
@@ -68,7 +68,8 @@ class Draconus:
             Echo.TYPES : Echo,
             BasicRat.TYPES : BasicRat,
             GypsyKing.TYPES : GypsyKing,
-            BasicBot.TYPES : BasicBot
+            BasicBot.TYPES : BasicBot,
+            RatHole.TYPES : RatHole
         }
     
     def make_file(self):

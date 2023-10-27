@@ -4,10 +4,10 @@
     <img src="img/d3.jpg" alt="Logo" width="320" height="200">
   </a>
 
-<h3 align="center">DRACONUS 2</h3>
+<h1 align="center">DRACONUS 2</h1>
 
   <p align="center">
-    project_description
+    <h3> This code does NOT promote or encourage any illegal activities! The content of this document is for educational purposes only, intended to raise awareness and learn the Python language and in particular the socket module </h3>
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />

@@ -1,5 +1,5 @@
 <br />
-<div align="center">
+<div id="intro" align="center">
   <a href="https://github.com/LittleAtariXE/Draconus2">
     <img src="img/d3.jpg" alt="Logo" width="320" height="200">
   </a>
@@ -27,7 +27,7 @@
 
 </p>
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/LittleAtariXE/Draconus2#intro"><strong>Intro »</strong></a>
     <br />
     <br />
     <a href="https://github.com/LittleAtariXE/Draconus2#how_works">How Draco Works</a>

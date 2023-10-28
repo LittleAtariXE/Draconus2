@@ -37,3 +37,8 @@
     <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
   </p>
 </div>
+
+<div id="how_works" aliign="center">
+  <br/>
+  <h2> How Draco Works </h2>
+</div>

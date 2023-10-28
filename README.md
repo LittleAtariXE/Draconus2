@@ -38,7 +38,7 @@
   </p>
 </div>
 
-<div id="how_works" aliign="center">
+<div id="how_works" align="center">
   <br/>
   <h2> How Draco Works </h2>
 </div>

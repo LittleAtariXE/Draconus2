@@ -33,8 +33,8 @@
   </div>
 
   
-    <br/>
-  <div id="whatis" align="center">
+
+<div id="whatis" align="center">
     <h2> What is "Draconus"? </h2>
   
     <h4> Draconus is a background-running program. Through another program called "Command Center," we connect to Draconus. Draconus enables the creation of various types of servers. These servers run as separate processes in the background but remain dependent on Draconus. As long as Draconus is running, all servers created by us will keep running.</h4>

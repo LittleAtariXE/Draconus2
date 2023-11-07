@@ -41,4 +41,8 @@
 <div id="how_works" align="center">
   <br/>
   <h2> How Draco Works </h2>
+  <h4>Due to its nature, Draconus operates exclusively on the Linux operating system. Because of its use of the Python `multiprocessing` module, this program may not function properly on Windows. However, client-type programs created using Draconus for connecting to servers are compatible with all systems that have Python installed.</h4>
+
+  <h4>To run Draconus, you execute it as a background process (e.g., by using the "nohup" command). Draconus and every server it creates run continuously in the background as separate processes, each having its own log file.</h4>
+
 </div>

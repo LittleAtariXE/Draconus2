@@ -17,6 +17,9 @@
     <br />
     <br />
     <a href="https://github.com/LittleAtariXE/Draconus2#about">ABOUT</a>
+    .
+    <a href="https://github.com/LittleAtariXE/Draconus2#whatis">What is Draconus</a>
+    .
     <a href="https://github.com/LittleAtariXE/Draconus2#how_works">How Draco Works</a>
     ·
     <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>

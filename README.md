@@ -12,6 +12,7 @@
   </p>
 </div>
    <br />
+   <div align="center">
     <a href="https://github.com/LittleAtariXE/Draconus2#intro"><strong>Intro »</strong></a>
     <br />
     <br />
@@ -21,13 +22,20 @@
     <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
     ·
     <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
-  <div id="about">
+   </div>
+  <br/>
+  
+  <div id="about" align="center">
     <h2> ABOUT </h2>
     <h4> I created this project primarily to gain a better understanding of how network sockets work in Python, and also as a fun exploration of Processes and Threads. After many, many... hours of work and testing with network sockets, I can only say one thing: "You can get a serious brain workout!" 😄 </h4>
     <h4> However, it seems to me that I've managed to create servers and clients that, to some extent, can work together (recover connections, avoid hanging, etc.). Nevertheless, strange "things" can still happen, and network sockets may behave in quite peculiar ways. </h4>
     <h4> In any case, I invite you to test and improve this project, as someone else might be able to tame those "network sockets." Good luck!</h4>
+  </div>
+
+  
     <br/>
-    <h3> What is "Draconus"? </h3>
+  <div id="whatis" align="center">
+    <h2> What is "Draconus"? </h2>
   
     <h4> Draconus is a background-running program. Through another program called "Command Center," we connect to Draconus. Draconus enables the creation of various types of servers. These servers run as separate processes in the background but remain dependent on Draconus. As long as Draconus is running, all servers created by us will keep running.</h4>
   
@@ -36,20 +44,10 @@
     <h4> Draconus allows you to create an unlimited number of servers (I mean, I didn't introduce any limitations) until your CPU explodes! 😄 Each server is capable of handling connections from multiple clients simultaneously, managing those connections, receiving and sending messages or commands. Feel free to test the endurance of the servers, i.e., how many clients they can handle simultaneously and communicate with.</h4>
   
     <h4> You're welcome to test and see how robust these servers are! </h4>
-  </div>
-
-</p>
-    <br />
-    <a href="https://github.com/LittleAtariXE/Draconus2#intro"><strong>Intro »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/LittleAtariXE/Draconus2#how_works">How Draco Works</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
-  </p>
 </div>
+  
+
+<br/>
 
 <div id="how_works" align="center">
   <br/>

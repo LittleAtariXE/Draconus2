@@ -71,9 +71,16 @@
 - Linux Operating System (tested on Parrot and Debian)
 - Python 3.9
 
-Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/LittleAtariXE/Draconus2
    ```
-
+2. Change directory
+   '''sh
+   cd Draconus2
+   '''
+3. Install requirements
+   '''sh
+   pip install -r requirements.txt
+   '''
 </div>

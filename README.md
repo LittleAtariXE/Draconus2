@@ -62,3 +62,14 @@
 <div id="letsplay" align="center">
   <h2>Lets Play</h2>
 </div>
+<br/>
+<div id="install">
+  ### Installation
+
+  **Basic Requirements:**
+
+- Linux Operating System (tested on Parrot and Debian)
+- Python 3.9
+
+
+</div>

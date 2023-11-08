@@ -71,5 +71,9 @@
 - Linux Operating System (tested on Parrot and Debian)
 - Python 3.9
 
+Clone the repo
+   ```sh
+   git clone https://github.com/LittleAtariXE/Draconus2
+   ```
 
 </div>

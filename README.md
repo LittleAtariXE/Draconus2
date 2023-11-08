@@ -16,10 +16,12 @@
     <a href="https://github.com/LittleAtariXE/Draconus2#intro"><strong>Intro »</strong></a>
     .
     <a href="https://github.com/LittleAtariXE/Draconus2#about">ABOUT</a>
-    <br />
+    .
     <a href="https://github.com/LittleAtariXE/Draconus2#whatis">What is Draconus</a>
     .
     <a href="https://github.com/LittleAtariXE/Draconus2#how_works">How Draco Works</a>
+    <br/>
+    <a href="https://github.com/LittleAtariXE/Draconus2#letsplay">Lets Play</a>
    </div>
   <br/>
   
@@ -55,4 +57,8 @@
 <h4>Therefore, even when you're not currently connected to Draconus, you can review messages and events by examining the continuously updated log file.</h4>
 <h4>Draconus can also be started as a regular program using the command "python3 Draconus.py." In this case, you'll need to open a second terminal to run the "Command Center."</h4>
 
+</div>
+<br/>
+<div id="Lets Play" align="center">
+  <h2>Lets Play</h2>
 </div>

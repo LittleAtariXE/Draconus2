@@ -76,11 +76,11 @@
    git clone https://github.com/LittleAtariXE/Draconus2
    ```
 2. Change directory
-   '''sh
+   ```sh
    cd Draconus2
-   '''
+   ```
 3. Install requirements
-   '''sh
+   ```sh
    pip install -r requirements.txt
-   '''
+   ```
 </div>

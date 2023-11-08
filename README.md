@@ -14,8 +14,7 @@
    <br />
    <div align="center">
     <a href="https://github.com/LittleAtariXE/Draconus2#intro"><strong>Intro »</strong></a>
-    <br />
-    <br />
+    .
     <a href="https://github.com/LittleAtariXE/Draconus2#about">ABOUT</a>
     <br />
     <a href="https://github.com/LittleAtariXE/Draconus2#whatis">What is Draconus</a>

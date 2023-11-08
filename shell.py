@@ -224,9 +224,3 @@ def build_server_shell(Name, CoCe):
 
 
 
-
-
-if __name__ == "__main__":
-    DS = build_draco_shell()
-    sleep(1)
-    DS()

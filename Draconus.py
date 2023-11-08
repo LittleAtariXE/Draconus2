@@ -183,7 +183,7 @@ class Draconus:
         if serv:
             return serv
         else:
-            self.Msg(f"\n[{self.name}] [!!] ERROR [!!] Server does not exist", level=True)
+            self.Msg(f"\n[DRACONUS] [!!] ERROR [!!] Server does not exist", level=True)
             return None
 
     def start_server(self, name):

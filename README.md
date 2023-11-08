@@ -59,6 +59,6 @@
 
 </div>
 <br/>
-<div id="Lets Play" align="center">
+<div id="letsplay" align="center">
   <h2>Lets Play</h2>
 </div>

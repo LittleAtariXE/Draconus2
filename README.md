@@ -64,7 +64,7 @@
 </div>
 <br/>
 <div id="install">
-  ### Installation
+  <h3 align="center">Installation</h3>
 
   **Basic Requirements:**
 

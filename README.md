@@ -59,13 +59,11 @@
 
 **Python Libraries Used in Draconus:**
 
-- Jinja2
-- Click
-- Click-Shell
+<h4>Jinja2</h4>
+<h4>Click</h4>
+<h4>Click-Shell</h4>
 
-**Clients Created by Draconus:**
-
-Clients created by Draconus only require pure Python, with no additional libraries.
+<h4>Clients created by Draconus only require pure Python, with no additional libraries.</h4>
 
 </div>
 <br/>

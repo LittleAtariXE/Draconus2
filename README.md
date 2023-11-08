@@ -57,6 +57,16 @@
 <h4>Therefore, even when you're not currently connected to Draconus, you can review messages and events by examining the continuously updated log file.</h4>
 <h4>Draconus can also be started as a regular program using the command "python3 Draconus.py." In this case, you'll need to open a second terminal to run the "Command Center."</h4>
 
+**Python Libraries Used in Draconus:**
+
+- Jinja2
+- Click
+- Click-Shell
+
+**Clients Created by Draconus:**
+
+Clients created by Draconus only require pure Python, with no additional libraries.
+
 </div>
 <br/>
 <div id="letsplay" align="center">

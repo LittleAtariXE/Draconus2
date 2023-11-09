@@ -22,6 +22,9 @@
     <a href="https://github.com/LittleAtariXE/Draconus2#how_works">How Draco Works</a>
     <br/>
     <a href="https://github.com/LittleAtariXE/Draconus2#letsplay">Lets Play</a>
+    <a href="https://github.com/LittleAtariXE/Draconus2#install">Install</a>
+     .
+    <a href="https://github.com/LittleAtariXE/Draconus2#first">Frist Run</a>
    </div>
   <br/>
   
@@ -94,4 +97,9 @@
    ```sh
    pip install -r requirements.txt
    ```
+</div>
+
+<div id="firstrun">
+  <h3>First Run</h3>
+  
 </div>

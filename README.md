@@ -21,7 +21,7 @@
     .
     <a href="https://github.com/LittleAtariXE/Draconus2#how_works">How Draco Works</a>
     <br/>
-    <a href="https://github.com/LittleAtariXE/Draconus2#letsplay"><h4>Lets Play</h4></a>
+    <h4><a href="https://github.com/LittleAtariXE/Draconus2#letsplay">Lets Play</a></h4>
      <br/>
     <a href="https://github.com/LittleAtariXE/Draconus2#install">Install</a>
      .

@@ -71,7 +71,7 @@
 <br/>
 <div id="letsplay" align="center">
   <h2>Lets Play</h2>
-  <img src="img/draki.png" alt="Logo" width="400" height="300">
+  <img src="img/draki.png" alt="Logo" width="320" height="200">
 </div>
 <br/>
 <div id="install">

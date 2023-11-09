@@ -21,7 +21,8 @@
     .
     <a href="https://github.com/LittleAtariXE/Draconus2#how_works">How Draco Works</a>
     <br/>
-    <a href="https://github.com/LittleAtariXE/Draconus2#letsplay">Lets Play</a>
+    <a href="https://github.com/LittleAtariXE/Draconus2#letsplay"><h4>Lets Play</h4></a>
+     <br/>
     <a href="https://github.com/LittleAtariXE/Draconus2#install">Install</a>
      .
     <a href="https://github.com/LittleAtariXE/Draconus2#first">Frist Run</a>
@@ -98,8 +99,8 @@
    pip install -r requirements.txt
    ```
 </div>
-
+<br/>
 <div id="firstrun">
-  <h3>First Run</h3>
+  <h3 align="center">First Run</h3>
   
 </div>

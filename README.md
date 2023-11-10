@@ -83,7 +83,7 @@
 
   **Basic Requirements:**
 
-- Linux Operating System (tested on Parrot and Debian)
+- Linux Operating System (tested on Parrot and Kali)
 - Python 3.9
 
 1. Clone the repo

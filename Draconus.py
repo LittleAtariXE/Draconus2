@@ -45,6 +45,7 @@ class ServerHandler:
     def begin(self):
         self.Draco.Msg(f"\n[DRACONUS] Server <{self.name}> create successfull. Addr: {self.server._ip} : {self.server._port}", level=True)
         self.server.start()
+         
 
 
 
@@ -110,6 +111,7 @@ class Draconus:
             self.Msg(f"[DRACONUS] ERROR: Draconus Cant Start", level=True)
             sys.exit()
         self.Queen = Queen(self)
+        print("DRACONUS START")
     
     def accept_conn(self):
         self.conn, self.addr = self.server.accept()
@@ -237,6 +239,7 @@ class Draconus:
                 os.unlink(os.path.join(self.sockets_dir, f"{name}_api"))
             except Exception as e:
                 print("ERROR del socket: ", e)
+            self.Msg(f"[DRACONUS] Server <{name}> delete successfull")
     
 
 

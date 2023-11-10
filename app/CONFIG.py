@@ -1,9 +1,13 @@
 import os
 from pathlib import Path
 
-
+# Put this your IP Adreess. If you use VPS you can put ""
 DEFAULT_IP = "192.168.100.21"
+
+# Default format code for communication between server and clients
 FORMAT_CODE = "utf-8"
+
+
 RAW_LEN = 1024
 LISTENING_STEP = 3
 
@@ -26,8 +30,6 @@ OUTPUT_DIR = os.path.join(DRACO_OUT_MAIN_DIR, "OUTPUT")
 EXTRAS_DIR = os.path.join(APP_DIRECTORY, "extras")
 PAYLOAD_DIR = os.path.join(DRACO_OUT_MAIN_DIR, "PAYLOAD")
 
-print(APP_DIRECTORY)
-print(DRACO_OUT_MAIN_DIR)
 
 if not os.path.exists(DRACO_OUT_MAIN_DIR):
     os.mkdir(DRACO_OUT_MAIN_DIR)

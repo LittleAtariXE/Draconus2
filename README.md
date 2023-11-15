@@ -129,5 +129,5 @@
    - **Config**: A directory where server configurations are stored and can be imported later.
    - **sys_headers.txt**: A special file containing a random character string. It serves as a separator for special commands sent by clients to the server. This file and character string are created each time they are not present. If you delete this file and restart Draconus, a new character string will be generated. Therefore, old client programs using the old "sys_headers" won't be able to cooperate with servers using the new "sys_headers."
 
-  
+5. If you don't see some directories after the first run, don't worry. Additional directories will be created when needed.  
 </div>

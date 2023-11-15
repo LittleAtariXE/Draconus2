@@ -102,6 +102,8 @@
 <br/>
 <div id="firstrun">
   <h3 align="center">First Run</h3>
+
+   **First steps:**
 1. Navigate to the "Draconus" directory using the command:
   ```sh
   cd Draconus

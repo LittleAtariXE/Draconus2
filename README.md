@@ -102,5 +102,15 @@
 <br/>
 <div id="firstrun">
   <h3 align="center">First Run</h3>
+1. Navigate to the "Draconus" directory using the command:
+  ```sh
+  cd Draconus
+  ```
+
+2. Use the `nohup` command to run programs in the background. Execute the command:
+  ```sh
+  nohup python3 Draconus.py &
+  ```
+
   
 </div>

@@ -139,5 +139,5 @@
      ```sh
      python3 START.py
      ```
-     <img src="img/dstart.png" width="600" height="400">
+     <img src="img/dstart.png" width="800" height="400">
 </div>

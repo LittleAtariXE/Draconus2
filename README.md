@@ -12,25 +12,26 @@
   </p>
 </div>
    <br />
-   <div align="center">
+  <div align="center">
     <a href="https://github.com/LittleAtariXE/Draconus2#intro"><strong>Intro »</strong></a>
-    .
-    <a href="https://github.com/LittleAtariXE/Draconus2#about">ABOUT</a>
-    .
+    ·
+    <a href="https://github.com/LittleAtariXE/Draconus2#about">About</a>
+    ·
     <a href="https://github.com/LittleAtariXE/Draconus2#whatis">What is Draconus</a>
-    .
+    ·
     <a href="https://github.com/LittleAtariXE/Draconus2#how_works">How Draco Works</a>
     <br/>
-    <h4><a href="https://github.com/LittleAtariXE/Draconus2#letsplay">Lets Play</a></h4>
-     <br/>
+    <h4><a href="https://github.com/LittleAtariXE/Draconus2#letsplay">Let's Play</a></h4>
+    <br/>
     <a href="https://github.com/LittleAtariXE/Draconus2#install">Install</a>
-     .
-    <a href="https://github.com/LittleAtariXE/Draconus2#firstrun">Frist Run</a>
-    ..
+    ·
+    <a href="https://github.com/LittleAtariXE/Draconus2#firstrun">First Run</a>
+    ·
     <a href="https://github.com/LittleAtariXE/Draconus2#help">Help</a>
-    ..
+    ·
     <a href="https://github.com/LittleAtariXE/Draconus2#myfirst">My First Server</a>
-   </div>
+</div>
+
   <br/>
   
   <div id="about" align="center">

@@ -148,8 +148,8 @@
 <br/>
 8. If the Command Center throws an error and fails to connect to Draconus, it means:
        <img src="img/CCerror.png" width="800" height="300">
-  <br/>Draconus hasn't been started. You need to start Draconus first.
-  <br/>Draconus encountered an error and stopped working (I spent a lot of time testing, so this shouldn't happen). Check Draconus log files for more information.
+<br/>  Draconus hasn't been started. You need to start Draconus first.
+<br/>  Draconus encountered an error and stopped working (I spent a lot of time testing, so this shouldn't happen). Check Draconus log files for more information.
 <br/>
 </div>
 <br/>

@@ -23,6 +23,8 @@
     <br/>
     <h4><a href="https://github.com/LittleAtariXE/Draconus2#letsplay">Let's Play</a></h4>
     <br/>
+    <a href="https://github.com/LittleAtariXE/Draconus2#before">Before Start</a>
+    <br/>
     <a href="https://github.com/LittleAtariXE/Draconus2#install">Install</a>
     ·
     <a href="https://github.com/LittleAtariXE/Draconus2#firstrun">First Run</a>
@@ -81,6 +83,9 @@
 <div id="letsplay" align="center">
   <h2>Lets Play</h2>
   <img src="img/draki.png" alt="Logo" width="320" height="200">
+</div>
+<div id="before" align="center">
+  <h3>Before Start</h3>
 </div>
 <br/>
 <div id="install">

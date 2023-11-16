@@ -130,9 +130,9 @@
 3. After starting Draconus, a directory named "DRACONUS" will be created in its folder. This directory will store log files, payloads, and the client programs created by Draconus.
    When you run the command `ps aux | grep python3`, you should see the "Draconus" process in the list of active processes, indicating that it is running in the background. If you wish, you can explore the "DRACONUS/OUTPUT" directory where log files are located, allowing you to review them in real-time.
 
-    <img src="img/starts.png" width="800" height="300">
+    <img src="img/starts.png" width="800" height="200">
     <br/>
-    <img src="img/ddir.png" width="600" height="300">
+    <img src="img/ddir.png" width="600" height="200">
 
 
 
@@ -152,7 +152,7 @@
      ```sh
      python3 START.py
      ```
-     <img src="img/dstart.png" width="800" height="400">
+     <img src="img/dstart.png" width="800" height="300">
 <br/>
 8. If the Command Center throws an error and fails to connect to Draconus, it means:
        <img src="img/CCerror.png" width="800" height="300">

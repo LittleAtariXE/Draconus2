@@ -26,7 +26,9 @@
     <a href="https://github.com/LittleAtariXE/Draconus2#install">Install</a>
      .
     <a href="https://github.com/LittleAtariXE/Draconus2#firstrun">Frist Run</a>
+    ..
     <a href="https://github.com/LittleAtariXE/Draconus2#help">Help</a>
+    ..
     <a href="https://github.com/LittleAtariXE/Draconus2#myfirst">My First Server</a>
    </div>
   <br/>

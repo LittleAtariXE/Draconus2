@@ -1,8 +1,8 @@
 import os
 from pathlib import Path
 
-# Put this your IP Adreess. If you use VPS you can put ""
-DEFAULT_IP = "192.168.100.21"
+# Put this your IP Addres. If you use VPS you can put ""
+DEFAULT_IP = "127.0.0.1"
 
 # Default format code for communication between server and clients
 FORMAT_CODE = "utf-8"

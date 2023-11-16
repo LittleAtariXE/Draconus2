@@ -151,7 +151,7 @@
   <br/>Draconus hasn't been started. You need to start Draconus first.
   <br/>Draconus encountered an error and stopped working (I spent a lot of time testing, so this shouldn't happen). Check Draconus log files for more information.
 <br/>
-
+</div>
 <br/>
 <div id="help">
   <h3 align="center">HELP</h3>
@@ -162,7 +162,5 @@
   <h3 align="center">My First Server</h3>
 </div>
 
-  <br/>Draconus hasn't been started. You need to start Draconus first.
-  <br/>Draconus encountered an error and stopped working (I spent a lot of time testing, so this shouldn't happen). Check Draconus log files for more information.
 <br/>
-</div>
+

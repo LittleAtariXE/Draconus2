@@ -23,7 +23,7 @@
     <br/>
     <h4><a href="https://github.com/LittleAtariXE/Draconus2#letsplay">Let's Play</a></h4>
     <br/>
-    <a href="https://github.com/LittleAtariXE/Draconus2#before">Before Start</a>
+    <h4><a href="https://github.com/LittleAtariXE/Draconus2#before">Before Start</a><h4>
     <br/>
     <a href="https://github.com/LittleAtariXE/Draconus2#install">Install</a>
     ·
@@ -86,6 +86,9 @@
 </div>
 <div id="before" align="center">
   <h3>Before Start</h3>
+  <h4>I STRONGLY RECOMMENDED: Uses Draconus and clients only in Virtual Machine. You can serious DAMAGE your System</h4>
+  <h4>Some Clients can perform "http_flood" and other attack. YOU ARE RESPONSIBLE FOR USING THIS TOOL CORRECTLY !!!</h4>
+  <h4>Don't attack other users' sites or infect their systems !!!!</h4>
 </div>
 <br/>
 <div id="install">

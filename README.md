@@ -195,6 +195,8 @@
   <p><strong>stop</strong> - Stops the server's listening. Disconnects all clients. Some client versions may take some time to disconnect. If you start and quickly stop the "listening," some clients may reconnect after a certain period. I am constantly working to improve this process.</p>
   <p><strong>hive</strong> - The hatchery hatches new worms. In other words, it creates client programs (worms) that cooperate with our servers. Each client is created for a specific server, connecting to its IP address, using the same port, and must have the same "sys_header" mentioned above. Client programs are designed to work with standard Python libraries, so they can be easily compiled into binary form.</p>
   <p>When creating a client, you can additionally select the "--infect" option, which infects the client's system (only works on Windows). When the user starts the client programme, the client will attempt to make its copy in one of the user's directories, then add an entry to the windows registry and run with each system start-up.</p>
+  <p><strong>conn</strong> - Connects to the server. After this command, provide the name of a previously created server. At this point, we move to level 2 of our console. Now, all commands are sent directly to the server, not to Draconus. The "help" command works here as well, but it will display different commands depending on the server. To exit the Server Console, type "exit", and the program will return to the Draconus console.</p>
+  <p><strong>theend</strong> - Ends Draconus and shuts down all servers. After using this command, all background processes will be terminated. Note: You will need to restart Draconus!!!</p>
 </div>
 
 <br/>

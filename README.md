@@ -122,6 +122,11 @@
   ```sh
   cd Draconus2
   ```
+  If you wish to change the default IP address of the servers you create, you must edit the CONFIG.py file
+  ```sh
+  nano app/CONFIG.py
+  ```
+  
 
 2. Use the `nohup` command to run programs in the background. Execute the command:
   ```sh

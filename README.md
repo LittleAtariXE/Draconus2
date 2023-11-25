@@ -164,7 +164,9 @@
      ```sh
      python3 START.py
      ```
-     <img src="img/dstart.png" width="800" height="300">
+     <p align="center">
+       <img src="img/dstart.png" width="600" height="200">
+     </p>
 <br/>
 9. If the Command Center throws an error and fails to connect to Draconus, it means:
        <img src="img/CCerror.png" width="800" height="300">

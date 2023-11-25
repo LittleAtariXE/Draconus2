@@ -182,7 +182,7 @@
   <p align="center">
      <img src="img/help.png" width="600" height="300">
   </p>
-  - **clr** - Clear Screen
+  **clr** - Clear Screen
   
 </div>
 

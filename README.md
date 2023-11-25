@@ -124,6 +124,7 @@
   ```
 
 2. If you wish to change the default IP address of the servers you create, you must edit the CONFIG.py file.
+   <br/>
    In the CONFIG.py file, you will find numerous parameters such as code formatting, length of received packets, etc. If you wish, you can experiment with different settings. If something doesn't work as expected, you can adjust them. However, the only parameter you really need to concern yourself with is "DEFAULT_IP." You don't need to worry about the rest.
 
 
@@ -139,7 +140,6 @@
   nohup python3 Draconus.py &
   ```
 4. After starting Draconus, a directory named "DRACONUS" will be created in its folder. This directory will store log files, payloads, and the client programs created by Draconus.
-   <br/>
    When you run the command `ps aux | grep python3`, you should see the "Draconus" process in the list of active processes, indicating that it is running in the background. If you wish, you can explore the "DRACONUS/OUTPUT" directory where log files are located, allowing you to review them in real-time.
 
     <img src="img/starts.png" width="800" height="200">

@@ -188,6 +188,9 @@
   <p align="center">
      <img src="img/stypes.png" width="800" height="400">
   </p>
+  <p><strong>make</strong> - Creates a server. You need to provide the "server type," its name, and the port on which it will operate. You can obtain a list of servers to create using the "show -t" command. Servers operate independently of each other. Clients are created based on specific server types and are associated with a particular server.</p>
+  <p><strong>  Ex: make BasicRat MyServer 2222</strong> - Make BasicRat server works on port: 2222</p>
+  
 </div>
 
 <br/>

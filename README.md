@@ -182,8 +182,12 @@
   <p align="center">
      <img src="img/help.png" width="600" height="300">
   </p>
-  **clr** - Clear Screen
-  
+  <p><strong>clr</strong> - Clear Screen</p>
+  <p><strong>exit</strong> - Exit Command Center. Draconus and created servers continue to operate (receive, send, etc.). After exiting CC, you can reconnect by restarting "python3 START.py."</p>
+  <p><strong>show</strong> - Displays a list of created servers, a list of server types that can be created, etc. See "show --help" for more information.</p>
+  <p align="center">
+     <img src="img/stypes.png" width="800" height="400">
+  </p>
 </div>
 
 <br/>

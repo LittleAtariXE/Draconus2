@@ -179,6 +179,9 @@
 <br/>
 <div id="help">
   <h3 align="center">HELP</h3>
+  <p align="center">
+     <img src="img/help.png" width="600" height="300">
+  </p>
 </div>
 
 <br/>

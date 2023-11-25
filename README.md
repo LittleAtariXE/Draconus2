@@ -190,7 +190,11 @@
   </p>
   <p><strong>make</strong> - Creates a server. You need to provide the "server type," its name, and the port on which it will operate. You can obtain a list of servers to create using the "show -t" command. Servers operate independently of each other. Clients are created based on specific server types and are associated with a particular server.</p>
   <p><strong>  Ex: make BasicRat MyServer 2222</strong> - Make BasicRat server works on port: 2222</p>
-  
+  <p><strong>kill</strong> - Removes and shuts down the server, closing all connections and terminating the process.</p>
+  <p><strong>start</strong> - Initiates the server's listening. Accepts connections and handles clients.</p>
+  <p><strong>stop</strong> - Stops the server's listening. Disconnects all clients. Some client versions may take some time to disconnect. If you start and quickly stop the "listening," some clients may reconnect after a certain period. I am constantly working to improve this process.</p>
+  <p><strong>hive</strong> - The hatchery hatches new worms. In other words, it creates client programs (worms) that cooperate with our servers. Each client is created for a specific server, connecting to its IP address, using the same port, and must have the same "sys_header" mentioned above. Client programs are designed to work with standard Python libraries, so they can be easily compiled into binary form.</p>
+  <p>When creating a client, you can additionally select the "--infect" option, which infects the client's system (only works on Windows). When the user starts the client programme, the client will attempt to make its copy in one of the user's directories, then add an entry to the windows registry and run with each system start-up.</p>
 </div>
 
 <br/>

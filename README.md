@@ -123,7 +123,9 @@
   cd Draconus2
   ```
 
-2. If you wish to change the default IP address of the servers you create, you must edit the CONFIG.py file
+2. If you wish to change the default IP address of the servers you create, you must edit the CONFIG.py file.
+   In the CONFIG.py file, you will find numerous parameters such as code formatting, length of received packets, etc. If you wish, you can experiment with different settings. If something doesn't work as expected, you can adjust them. However, the only parameter you really need to concern yourself with is "DEFAULT_IP." You don't need to worry about the rest.
+
 
   ```sh
   nano app/CONFIG.py

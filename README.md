@@ -129,7 +129,7 @@
   nano app/CONFIG.py
   ```
 
-    <img src="img/config.png" width="600" height="200">
+  <img src="img/config.png" width="600" height="200">
   <br/>
 
 3. Use the `nohup` command to run programs in the background. Execute the command:
